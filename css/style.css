@@ -1,0 +1,54 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* Formatação da tag <a></a> */
+#click{
+    display: flex;
+    text-decoration: none;
+    margin: auto;
+    width: 100%;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+/* Container Principal da página */
+#container_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    margin: auto;
+}
+
+/* Body da página, salvo cabeçalho e rodapé */
+#page_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+}
+
+/* Conteiner da fila de produtos (loja virtual) */
+.prod_row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+/* Conteiner fila de serviços */
+.serv_row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: space-between;
+    padding-top: 10px;
+}

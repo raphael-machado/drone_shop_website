@@ -1,0 +1,51 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* Container dos manutenções */
+#manutencoes{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1b8d99;
+    width: 300px;
+    height: 330px;
+}
+
+    /* Imagem do manutenções */
+    .imagem_manutencoes{
+        display: flex;
+        width: 300px;
+        height: 137px;
+    }
+
+    /* Título dos manutenções */
+    .titulo_manutencoes h4{
+        text-align: left;
+        font-family: Tahoma;
+        color: #1b8d99;
+        font-size: 17px;
+        margin: 3px 5px;
+        padding: 5px;
+    }
+
+    /* Descrição dos manutenções */
+    .texto_manutencoes{
+        text-align: justify;
+        font-family: Tahoma;
+        font-size: 13px;
+        padding-left: 11px;
+        padding-right: 11px;
+        color: #1b8d99;
+        margin-top: -10px;
+    }
+
+    .borda_baixo_manutencoes{
+        display: flex;
+        margin-top: auto;
+        width: 100%;
+        height: 10px;
+        background-color: #1b8d99;
+    }

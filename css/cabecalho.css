@@ -1,0 +1,145 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* CONTAINER GERAL DO CABEÇALHO */
+#cabecalho{
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    height: 442px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.banner{
+    width: 980px;
+    height: 352px;
+    z-index: 1;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* PRIMEIRO MENU */
+
+/* Container do menu lateral */
+#menu{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1b8e99;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-right: 40px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+/* Container da logo */
+.logo_site{
+    display: flex;
+    margin-right: 310px;
+    margin-top: 60px;
+}
+
+/* Logo imagem */
+.logo_site img{
+    order: 1;
+    width: 194px;
+    height: 146px;
+}
+
+/* Formatação dos itens do menu e conteiner */
+.itens_menu1{
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    padding: 15px; /* definir hover do mesmo tamanho para não aumentar */
+    text-align: center;
+    box-sizing: border-box;
+    /* margin: auto; */
+}
+
+/* Hover dos itens */
+.itens_menu1:hover{
+    background-color: #92c9ce;
+    padding: 15px; /* deixar do mesmo tamanho do definido pelo menu */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Formatação dos links */
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* FIM DO SEGUNDO MENU */
+/* //////////////////////////////////////////////////////////// */
+
+
+/* //////////////////////////////////////////////////////////// */
+/* MENU INTERNO (SEGUNDO) */
+
+
+/* Container do segundo menu */
+#menu_interno{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #660000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+/* Formatação do conteiner e texto menu secundario */
+#menu_interno div a{
+    text-transform: uppercase;
+    padding: 15px; /* definir hover do mesmo tamanho */
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+/* Formatação dos links */
+#menu_interno a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover do segundo menu */
+#menu_interno div a:hover{
+    color: #660000;
+    background-color: white;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+}
+
+    /* Formatação loja virtual */
+    .lojavirtual_menu{
+        text-align: center;
+        align-items: center;
+    }
+
+/* FIM DO MENU INTERNO */
+/* //////////////////////////////////////////////////////////// */

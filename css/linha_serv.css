@@ -1,0 +1,61 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* //////////////////////////////////////////////////////////// */
+/* Linha horizontal com imagem e texto - SERVIÇOS */
+
+/* Container para o bloco de rodapé dos serviços */
+.cont_servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    height: 77px;
+    width: 960px;
+    margin-top: 20px;
+}
+
+    /* Título "SERVIÇOS" */
+    .cont_servicos h2{
+        order: 0;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1b8d99;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+    /* Conteiner para ajuste da imagem */
+    .img_serv_container{
+        display: flex;
+        align-content: center;
+        order: 1;
+        width: 125px;
+        height: 77px;
+        overflow: hidden;
+    }
+
+    /* Imagem do conteiner de serviços */
+    .img_serv_container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* Linha Horizontal Azul */
+    .linha_horiz_azul{
+        order: 2;
+        width: 860px;
+        height: 2px;
+        background-color: #1b8d99;
+        margin-top: -24px;
+    }
+
+/* FIM DA LINHA SERVIÇOS */
+/* //////////////////////////////////////////////////////////// */

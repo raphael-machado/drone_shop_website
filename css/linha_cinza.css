@@ -1,0 +1,15 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+.linha_cinza{
+    margin: auto;
+    background-color: #444444;
+    height: 15px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}

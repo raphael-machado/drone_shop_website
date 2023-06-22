@@ -1,0 +1,55 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* Container para o bloco de rodapé da loja virtual */
+.cont_lojavirtual{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    height: 77px;
+    width: 960px;
+    margin-top: 20px;
+}
+
+    /* Título "LOJA VIRTUAL" */
+    .cont_lojavirtual h2{
+        order: 0;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #660000;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+    /* Conteiner para ajuste da imagem */
+    .img_lojavirtual_container{
+        display: flex;
+        align-content: center;
+        order: 1;
+        width: 125px;
+        height: 77px;
+        overflow: hidden;
+    }
+
+    /* Imagem do conteiner da linha da loja virtual */
+    .img_lojavirtual_container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* Linha Horizontal vermelha */
+    .linha_horiz_vermelha{
+        order: 2;
+        width: 860px;
+        height: 2px;
+        background-color: #660000;
+        margin-top: -24px;
+    }

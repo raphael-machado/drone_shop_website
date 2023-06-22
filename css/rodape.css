@@ -1,0 +1,122 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* /////////////////////////////////////////////// */
+
+/* Conteiner do rodapé */
+#rodape{
+    width: 100%;
+    margin-top: 70px;
+}
+
+/* Contêiner primeira parte rodapés, ícones. */
+.icones_drones{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+/* Div para os 2 primeiros icones apenas */
+/* Tamanho de 560px pois o meio é em 490. + metade do ícone == 560px */
+/* Dessa forma, consegui centralizar usando o space-between */
+
+.ajuste_rodape{
+    display: flex;
+    justify-content: space-between;
+    width: 560px;
+}
+
+/* Declarando os tamanhos das imagens */
+.icones_drones img{
+    width: 139px;
+    height: 46px;
+}
+
+    .icones_drones div{
+        display: flex;
+        align-items: end;
+    }
+
+    .img3_icones{
+        padding-right: 140px
+    }
+
+
+/* /////////////////////////////////////////////// */
+
+
+/* Parte azul do rodapé */
+.parte_azul{
+    display: flex;
+    flex-direction: row;
+    height: 96px;
+    width: 980px;
+    background-color: #1b8d99;
+
+}
+
+    /* Conteiner Logo DroneNET do rodapé */
+    .imagem_parte_azul{
+        display: flex;
+        width: 192px;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    /* Logo rodapé DroneNET */
+    .imagem_parte_azul img{
+        width: 123px;
+        height: 28px;
+    }
+
+    /* Texto prof */
+    .texto_prof{
+        display: flex;
+        align-items: center;
+        font-family: Tahoma;
+        font-size: 14px;
+        color: white;
+    }
+
+    /* Conteiner foto Professor Bortola */
+    .img_prof{
+        display: flex;
+        justify-content: flex-end;
+        width: 200px;
+
+        margin-top: -80px;
+    }
+
+    /* Foto prof Bortola */
+    .img_prof img{
+        width: 112px;
+        height: 203px;
+    }
+
+
+/* /////////////////////////////////////////////// */
+
+/* Parte vermelha do rodapé */
+.parte_vermelha{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 26px;
+    width: 980px;
+    background-color: #660000;
+}
+
+    /* Texto parte vermelha */
+    .parte_vermelha p{
+        display: flex;
+        align-items: center;
+        font-family: Tahoma;
+        font-size: 14px;
+        color: white;
+        padding-right: 80px;
+    }

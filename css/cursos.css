@@ -1,0 +1,51 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* Container dos cursos */
+#cursos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #660000;
+    width: 300px;
+    height: 330px;
+}
+
+    /* Imagem dos cursos */
+    .imagem_cursos{
+        display: flex;
+        width: 300px;
+        height: 137px;
+    }
+
+    /* Título dos cursos */
+    .titulo_cursos h4{
+        text-align: left;
+        font-family: Tahoma;
+        color: #660000;
+        font-size: 17px;
+        margin: 3px 5px;
+        padding: 5px;
+    }
+
+    /* Descrição dos cursos */
+    .texto_cursos{
+        text-align: justify;
+        font-family: Tahoma;
+        font-size: 13px;
+        padding-left: 11px;
+        padding-right: 11px;
+        color: #660000;
+        margin-top: -10px;
+    }
+
+    .borda_baixo{
+        display: flex;
+        margin-top: auto;
+        width: 100%;
+        height: 10px;
+        background-color: #660000;
+    }

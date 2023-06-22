@@ -1,0 +1,110 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* //////////////////////////////////////////////////////////// */
+/* BLOCO DO AR.Drone 2.0 */
+
+/* bloco do AR.Drone 2.0 */
+#ardrone{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1b8e99;
+    width: 300px;
+    height: 376px;
+}
+
+/* Título do produto */
+.titulo_ardrone h4{
+    text-align: center;
+    font-family: Tahoma;
+    color: #1b8e99;
+    font-size: 12px;
+    background-color: #1b8e9929;
+    margin: 3px 5px;
+    padding: 5px;
+}
+
+/* Imagem do AR.Drone 2.0 */
+.imagem_ardrone{
+    display: flex;
+    width: 279px;
+    height: 164px;
+    margin: auto;
+}
+
+/* Descrição do produto */
+.texto_ardrone{
+    text-align: justify;
+    color: #1b8e99;
+    font-family: tahoma;
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Container com os valores */
+.valores_ardrone{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #1b8e99;
+    margin-top: auto;
+    height: 96px;
+    justify-content: space-between;
+}
+
+    /* Texto com R$1.500,00 */
+    .valores_ardrone span{
+        align-items: center;
+        display: flex;
+        flex-grow: 1;
+        font-family: tahoma;
+        color: white;
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    /* Imagem do carrinho de compras */
+    .carrinho_ardrone{
+        order: 1;
+        display: flex;
+        width: 56px;
+        height: 52px;
+        background-color: white;
+        border-radius: 5px;
+        padding: 5px;
+        justify-content: center;
+        margin: auto;
+        margin-right: 10px;
+        margin-top: 13px;
+    }
+
+    /* Texto com as parcelas */
+    .parcelas_ardrone{
+        order: 2;
+        margin-top: -22px;
+        flex-shrink: 1;
+        font-size: 14px;
+        font-family: tahoma;
+        color: #ffffffcc;
+        padding-left: 15px;
+    }
+
+    /* Hover da tabela de valores do AR.Drone 2.0 */
+    .valores_ardrone:hover{
+        border-radius: 5px;
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+    }
+
+#ardrone:hover{
+    transform: scale(1.06);
+    transition: all 0.2s ease-in-out;
+}
+
+/* FIM DO BLOCO AR.Drone 2.0 */
+/* //////////////////////////////////////////////////////////// */

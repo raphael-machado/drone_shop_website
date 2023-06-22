@@ -1,0 +1,111 @@
+/*  
+Nome: Raphael Machado Ferreira
+RM: 550686
+Turma: 1ESOA | 2023 
+Atividade - Capítulo 5 - Fase 1
+*/
+
+/* //////////////////////////////////////////////////////////// */
+/* PHANTOM 2 + ZENMUSE H3-3D */
+
+/* bloco do Phantom 2 + Zenmuse H3-3D */
+#phantom{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #660000;
+    width: 300px;
+    height: 376px;
+}
+
+    /* Título do produto */
+    .titulo_phantom h4{
+        text-align: center;
+        font-family: Tahoma;
+        color: #660000;
+        font-size: 12px;
+        background-color: #66000033;
+        margin: 3px 5px;
+        padding: 5px;
+    }
+
+    /* Imagem do Phantom 2 */
+    .imagem_phantom{
+        display: flex;
+        width: 279px;
+        height: 164px;
+        margin: auto;
+    }
+
+    /* Descrição do produto */
+    .texto_phantom{
+        text-align: justify;
+        color: #660000;
+        font-family: tahoma;
+        font-size: 13px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    /* Contâiner com valores */
+    .valores_phantom{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #660000;
+        margin-top: auto;
+        height: 96px;
+        justify-content: space-between;
+    }
+
+        /* Texto com o R$12.000,00 */
+        .valores_phantom span{
+            align-items: center; /* Meio do eixo perpendicular */
+            display: flex;
+            flex-grow: 1;
+            font-family: tahoma;
+            color: white;
+            font-size: 30px;
+            padding-left: 10px;
+        }
+
+        /* Imagem do carrinho */
+        .carrinho_phantom{
+            order: 1;
+            display: flex;
+            width: 56px;
+            height: 52px;
+            background-color: white;
+            border-radius: 5px;
+            padding: 5px;
+            justify-content: center;
+            margin: auto;
+            margin-right: 10px;
+            margin-top: 13px;
+        }
+
+        /* Texto das parcelas */
+        .parcelas_phantom{
+            order: 2;
+            margin-top: -22px;
+            flex-shrink: 1;
+            font-size: 14px;
+            font-family: tahoma;
+            color: #ffffffcc;
+            padding-left: 15px;
+        }
+
+    /* Hover da tabela de valores Phantom 2 */
+    .valores_phantom:hover{
+        border-radius: 5px;
+        transform: scale(1.02);
+        transition: all 0.2s ease-in-out;
+    }
+
+/* Hover de todo o conteiner do DJI Inspire 1 */
+#phantom:hover{
+    transform: scale(1.06);
+    transition: all 0.2s ease-in-out;
+}
+
+/* FIM DO BLOCO PHANTOM 2 */
+/* //////////////////////////////////////////////////////////// */
